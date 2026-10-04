@@ -1,0 +1,164 @@
+星绘工坊离线版许可与使用条件
+
+此安装包免费分享，但各模型仍受其原始许可约束。
+Qwen Image 2.1 模型仅供非商业研究/评估；商业使用须另行取得 Qwen 授权。
+Krea 2 模型依 Krea 2 Community License 使用；商业使用有年收入门槛，且须遵守内容过滤、人工审核与 Acceptable Use Policy。
+安装并使用本包表示您接受下列模型许可。Krea Acceptable Use Policy: https://www.krea.ai/krea-2-use-policy
+
+================ QWEN IMAGE 2.1 ================
+Qwen RESEARCH LICENSE AGREEMENT
+
+Qwen RESEARCH LICENSE AGREEMENT Release Date: September 20, 2026
+
+By clicking to agree or by using or distributing any portion or element of the Qwen Materials, you will be deemed to have recognized and accepted the content of this Agreement, which is effective immediately.
+
+1. Definitions
+    a. This Qwen RESEARCH LICENSE AGREEMENT (this "Agreement") shall mean the terms and conditions for use, reproduction, distribution and modification of the Materials as defined by this Agreement.
+    b. "We" (or "Us") shall mean Hangzhou Tongyi Laboratory Technology Co., Ltd.
+    c. "You" (or "Your") shall mean a natural person or legal entity exercising the rights granted by this Agreement and/or using the Materials for any purpose and in any field of use.
+    d. "Third Parties" shall mean individuals or legal entities that are not under common control with us or you.
+    e. "Qwen" shall mean the large language models, diffusion models, and software and algorithms, consisting of trained model weights, parameters (including optimizer states), machine-learning model code, inference-enabling code, training-enabling code, fine-tuning enabling code and other elements of the foregoing distributed by us.
+    f. "Materials" shall mean, collectively, our proprietary Qwen and Documentation (and any portion thereof) made available under this Agreement.
+    g. "Source" form shall mean the preferred form for making modifications, including but not limited to model source code, documentation source, and configuration files.
+    h. "Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
+    i. "Non-Commercial" shall mean for research or evaluation purposes only.
+
+2. Grant of Rights
+    a. You are granted a non-exclusive, worldwide, non-transferable and royalty-free limited license under our intellectual property or other rights owned by us embodied in the Materials to use, reproduce, distribute, copy, create derivative works of, and make modifications to the Materials FOR NON-COMMERCIAL PURPOSES ONLY. 
+    b. You shall not use the Materials for any commercial purpose without obtaining a separate commercial license from us. If you wish to use the Materials commercially, you shall request a license from us at model-business@notice.qwencloud.com.
+
+3. Redistribution
+Subject to Section 2 (Grant of Rights), you may distribute copies or make the Materials, or derivative works thereof, available as part of a product or service that contains any of them, with or without modifications, and in Source or Object form, provided that you meet the following conditions:
+    a. You shall give any other recipients of the Materials or derivative works a copy of this Agreement;
+    b. You shall cause any modified files to carry prominent notices stating that you changed the files;
+    c. You shall retain in all copies of the Materials that you distribute the following attribution notices within a "Notice" text file distributed as a part of such copies: "Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) 2026 Hangzhou Tongyi Laboratory Technology Co., Ltd. All Rights Reserved."; and
+    d. You may add your own copyright statement to your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of your modifications, or for any such derivative works as a whole, provided your use, reproduction, and distribution of the work otherwise complies with the terms and conditions of this Agreement.
+
+4. Rules of use
+    a. The Materials may be subject to export controls or restrictions in China, the United States or other countries or regions. You shall comply with applicable laws and regulations in your use of the Materials.
+    b. If you use the Materials or any outputs or results therefrom to create, train, fine-tune, or improve an AI model that is distributed or made available, you shall prominently display “Built with Qwen” or “Improved using Qwen” in the related product documentation.
+    c. You shall not use "Qwen" as the primary name or identifier of any derivative works or products; reasonable descriptive use (e.g., "fine-tuned from Qwen Image") is permitted.
+
+5. Intellectual Property
+    a. We retain ownership of all intellectual property rights in and to the Materials and derivatives made by or for us. Conditioned upon compliance with the terms and conditions of this Agreement, with respect to any derivative works and modifications of the Materials that are made by you, you are and will be the owner of such derivative works and modifications.
+    b. No trademark license is granted to use the trade names, trademarks, service marks, or product names of us, except as required to fulfill notice requirements under this Agreement or as required for reasonable and customary use in describing and redistributing the Materials.
+    c. If you commence a lawsuit or other proceedings (including a cross-claim or counterclaim in a lawsuit) against us or any entity alleging that the Materials or any output therefrom, or any part of the foregoing, infringe any intellectual property or other right owned or licensable by you, then all licenses granted to you under this Agreement shall terminate as of the date such lawsuit or other proceeding is commenced or brought.
+
+6. Disclaimer of Warranty and Limitation of Liability
+    a. We are not obligated to support, update, provide training for, or develop any further version of the Qwen Materials or to grant any license thereto.
+    b. THE MATERIALS ARE PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND INCLUDING WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, OR FITNESS FOR A PARTICULAR PURPOSE. WE MAKE NO WARRANTY AND ASSUME NO RESPONSIBILITY FOR THE SAFETY OR STABILITY OF THE MATERIALS AND ANY OUTPUT THEREFROM.
+    c. IN NO EVENT SHALL WE BE LIABLE TO YOU FOR ANY DAMAGES, INCLUDING, BUT NOT LIMITED TO ANY DIRECT, OR INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OR INABILITY TO USE THE MATERIALS OR ANY OUTPUT OF IT, NO MATTER HOW IT’S CAUSED.
+    d. You will defend, indemnify and hold harmless us from and against any claim by any third party arising out of or related to your use or distribution of the Materials.
+
+7. Survival and Termination.
+    a. The term of this Agreement shall commence upon your acceptance of this Agreement or access to the Materials and will continue in full force and effect until terminated in accordance with the terms and conditions herein.
+    b. We may terminate this Agreement if you breach any of the terms or conditions of this Agreement. Upon termination of this Agreement, you must delete and cease use of the Materials. Sections 6 and 8 shall survive the termination of this Agreement.
+
+8. Governing Law and Jurisdiction.
+    a. This Agreement and any dispute arising out of or relating to it will be governed by the laws of China, without regard to conflict of law principles, and the UN Convention on Contracts for the International Sale of Goods does not apply to this Agreement.
+    b. The People's Courts in Hangzhou City shall have exclusive jurisdiction over any dispute arising out of this Agreement.
+
+9. Other Terms and Conditions.
+    a. Any arrangements, understandings, or agreements regarding the Material not stated herein are separate from and independent of the terms and conditions of this Agreement. You shall request a separate license from us, if you use the Materials in ways not expressly agreed to in this Agreement. 
+    b. We shall not be bound by any additional or different terms or conditions communicated by you unless expressly agreed.
+
+
+================ KREA 2 ================
+Krea 2 Community License Agreement
+v.1, Date: June 22, 2026
+
+This Krea 2 Community License Agreement (this "Agreement") is a legal agreement between you, whether an individual or an entity ("You" or "you"), and Krea.ai, Inc., a Delaware corporation ("Krea"), governing Your use of the Krea 2 model, which is made available in two downloadable variants: "Krea 2 Raw" and "Krea 2 Turbo." This includes the model weights, parameters, architecture, documentation, and any associated materials made available by Krea under this Agreement (collectively, the "Krea Model").
+
+By downloading, accessing, copying, using, or distributing Krea 2 Raw Model, Krea 2 Turbo Model, or any Derivative thereof, you acknowledge that you have read, understood, and agree to be bound by the terms and conditions of this Agreement. If you do not agree to these terms, you may not use the Krea Model.
+
+1. DEFINITIONS
+"Commercial Use" means any use of the Krea Model, Derivatives, or Outputs in connection with any business, trade, or commercial activity, including but not limited to the sale, licensing, or distribution of products or services, or the generation of revenue, whether directly or indirectly.
+
+"Content Filters" means technical and organizational safeguards designed to prevent prohibited uses and prohibited Outputs, including but not limited to prompt filtering, output filtering, abuse detection, user reporting, moderation workflows, and human review.
+
+"Derivative" or "Derivative Model" means any (a) modified version of the Krea Model, including any fine-tuned, distilled, or merged version, (b) work based on the Krea Model, or (c) otherwise modifying the Krea Model or any portion thereof.
+
+"Enterprise License" means a separate commercial license agreement between you and Krea for use of the Krea Model beyond the scope permitted under this Agreement.
+
+"Output" means any content, data, images, or other materials generated by the Krea Model or any Derivative Model in response to an input or prompt. For the avoidance of doubt, Outputs do not include any components of the Krea Model, such as fine-tuned versions, weights, or parameters.
+
+"You", "Your", "you" or "your" means the individual or entity entering into this Agreement. If you are entering into this Agreement on behalf of your employer or another person or entity, "you" and "your" also mean that person or entity, and you represent and warrant that (a) you have reached the age of legal consent under applicable law and (b) you have the legal authority to bind that person or entity to this Agreement.
+
+2. LICENSE GRANT AND COMMERCIAL USE TERMS
+2.1 Grant of Rights. Subject to this Agreement, Krea grants you a limited, non-exclusive, worldwide, non-transferable, non-sublicensable, revocable, royalty-free license to use, reproduce, distribute, copy, create Derivatives of, make modifications to, and generate Outputs from the Krea Model. Commercial Use of the Krea Model is permitted under this Agreement only if you satisfy the requirements of Section 2.3. Any Commercial Use that does not satisfy Section 2.3 requires an Enterprise License from Krea prior to such use.
+
+2.2 Reservation of Rights. Krea reserves all rights not expressly granted. No other licenses are granted, whether by waiver, estoppel, implication, or otherwise.
+
+2.3 Revenue Threshold for Commercial Use. Commercial Use under this Agreement of the Krea Model, Derivatives, or Outputs is permitted only if you (including all affiliated entities under common ownership or control) have total company-wide annual revenue of less than one million United States dollars ($1,000,000 USD), calculated on a trailing twelve-month basis and including all revenue from all sources. If you meet or exceed this threshold, you must obtain a separate enterprise license from Krea prior to any Commercial Use. If your revenue meets or exceeds this threshold at any time during your use of the Krea Model under this Agreement, you must immediately cease Commercial Use and contact Krea. Enterprise license inquiries may be directed to opensource@krea.ai.
+
+3. DISTRIBUTION REQUIREMENTS
+3.1 Distribution Requirements. If you distribute or make available the Krea Model (or any Derivative thereof), or a product or service (including another AI model) that contains any of them, you shall (a) provide a copy of this Agreement and require each recipient to be bound by the Terms of this Agreement; (b) include "Krea" at the beginning of any such AI model name (e.g., "Krea 2 [Your Model Name]"); and (c) retain the following attribution notice within a "Notice" text file distributed as part of such copies: "Krea 2 is licensed under the Krea 2 Community License Agreement. For more information, visit https://krea.ai/krea-2-licensing."
+
+3.2 Derivative Distribution Requirements. In the case of distribution of Derivatives made by you: (a) your attribution notice must state that you have modified the Krea Model; (b) any terms you impose on recipients of your Derivatives must not conflict with this Agreement, must not restrict their rights to use the Krea Model under this Agreement, and must include warranty and liability protections for Krea that are at least as strong as those in this Agreement; and (c) you must not represent that your Derivatives are official Krea products or endorsed by Krea, unless Krea authorizes you to do so in writing.
+
+3.3 No Removal of Notices. You shall not remove, alter, or obscure any copyright notices, license terms, attribution notices, or other proprietary markings contained in or accompanying the Krea Model.
+
+4. RESTRICTIONS AND PROHIBITED USES
+4.1 General Restrictions. You shall not, and shall not permit any third party to:
+
+(a)
+Use the Krea Model, any Derivative, or any Output in violation of applicable law, regulation, this Agreement, or the Acceptable Use Policy;
+
+(b)
+Sublicense, sell, lease, or otherwise transfer the Krea Model or any rights therein, except as expressly permitted under Section 3 (Distribution Requirements);
+
+(c)
+Circumvent or remove any security, usage restrictions, content provenance, or watermarking mechanisms in the Krea Model; or
+
+(d)
+Use or distribute the Krea Model in any manner that does not comply with applicable trade compliance laws and regulations, including United States export control and sanctions laws.
+
+4.2 Content Filtering Requirement. You must implement reasonable and appropriate Content Filter measures to detect, prevent, and mitigate the generation or distribution of prohibited, harmful, or unlawful content through your deployment of the Krea Model or any Derivative. Such measures may include, but are not limited to: (a) open-source content classifiers, such as Falconsai/nsfw_image_detection, NudeNet, or CompVis safety checker; (b) commercial content moderation APIs, such as Hive Moderation or Microsoft Azure AI Content Safety; (c) manual human review processes; and/or (d) any combination of the foregoing or other technically appropriate measures.
+
+The foregoing Content Filters are provided as examples only and do not constitute an endorsement, recommendation, or warranty by Krea. Krea is not responsible for the accuracy, availability, licensing terms, or performance of any third-party Content Filters. You are solely responsible for evaluating and selecting Content Filters appropriate to your use case and applicable legal requirements.
+
+4.3 Content Provenance and AI Disclosure. Where required by applicable law, regulation, or platform policy, you must clearly disclose that Outputs were generated using artificial intelligence. You are solely responsible for compliance with all applicable content provenance, labeling, and disclosure requirements.
+
+4.4 Acceptable Use Policy Compliance. You must comply with the Acceptable Use Policy, which is incorporated herein by reference.
+
+5. INTELLECTUAL PROPERTY
+5.1 Krea's Ownership. As between you and Krea, Krea retains all right, title, and interest in and to the Krea Model, including all intellectual property rights therein. Nothing in this Agreement transfers or assigns to you any ownership interest in the Krea Model.
+
+5.2 Ownership of Derivatives. Subject to Krea's ownership of the underlying Krea Model, you own all right, title, and interest in and to any Derivatives that you create, including any original contributions, modifications, or improvements made by you. Such ownership is subject to and does not limit Krea's rights in the underlying Krea Model or your obligations under this Agreement.
+
+5.3 Outputs. You own all Outputs you generate, subject to your compliance with this Agreement. Krea claims no ownership of Outputs. You are solely and exclusively responsible for all Outputs, including their content, accuracy, legality, and any and all consequences of their use or distribution.
+
+5.4 Trademarks and Implied Licenses. You may use the Krea name only as set forth in Section 3 (Distribution Requirements). No other license or right in any Krea intellectual property is granted or implied.
+
+6. DISCLAIMER OF WARRANTIES
+Unless required by applicable law, the Krea Model is provided "as is" and "with all faults" without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, title, non-infringement, or accuracy. Krea does not warrant that the Krea Model will meet your requirements, that the operation of the Krea Model will be uninterrupted or error-free, or that defects in the Krea Model will be corrected.
+
+Krea makes no representations or warranties regarding the accuracy, reliability, completeness, or quality of any Outputs generated by the Krea Model. You acknowledge that Outputs may contain errors, inaccuracies, biases, content that infringes or misappropriates third-party intellectual property or other rights, or objectionable content, and you assume all risk associated with your use of any Outputs. You are solely responsible for determining the appropriateness of using the Krea Model and assume all risks associated with your use of the Krea Model and any Outputs.
+
+7. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law, in no event shall Krea, its affiliates, officers, directors, employees, agents, licensors, or suppliers be liable for any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to damages for loss of profits, goodwill, use, data, or other intangible losses, arising out of or in connection with this Agreement or your use of or inability to use the Krea Model, regardless of the theory of liability (contract, tort, products liability, strict liability, warranty or otherwise) and even if Krea has been advised of the possibility of such damages. The limitations of liability set forth in this section shall apply notwithstanding any failure of essential purpose of any limited remedy.
+
+8. INDEMNIFICATION
+You will indemnify, defend, and hold harmless Krea and its affiliates, officers, directors, employees, agents, licensors, and suppliers from and against any and all claims, demands, actions, suits, proceedings, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees and court costs) arising out of or in connection with: (a) your access to, use, deployment, or distribution of the Krea Model, any Derivative, or any Output; (b) any Derivative created by you or any Output generated by you, including any claim arising from the content, accuracy, or legality of such Output; (c) your breach of this Agreement, including your failure to implement content filters where required (d) your violation of any applicable law, regulation, or third-party right; and (e) any claim that your use of the Krea Model, any Derivative, or any Output infringes, misappropriates, or otherwise violates any intellectual property, privacy, publicity, or other right of any third party.
+
+Krea reserves the right, at your expense, to assume the exclusive defense and control of any matter subject to indemnification by you, and you agree to cooperate with Krea's defense of such claims. You shall not settle any claim without Krea's prior written consent.
+
+For the avoidance of doubt, Krea has no obligation to indemnify, defend, or hold harmless you or any third party for any claim, loss, or liability arising from or related to the Krea Model, any Derivative, any Output, or this Agreement. All indemnification obligations under this Agreement run solely from you to Krea.
+
+9. TERMINATION
+9.1 Termination for Breach. This Agreement and all rights granted hereunder will terminate automatically and immediately upon any breach by you of any term or condition of this Agreement.
+
+9.2 Termination for Convenience. Krea may terminate this Agreement or any rights granted to you under this Agreement for any reason upon thirty (30) days' prior written or electronic notice to you.
+
+9.3 Litigation Termination. If you bring any legal claim or initiate any legal proceeding (including any cross-claim or counterclaim) against Krea or any other person or entity arising out of or relating to the Krea Model, any Derivative, any Output, or this Agreement, all licenses granted to you under this Agreement will automatically terminate as of the date such claim or proceeding is filed.
+
+9.4 Effect of Termination. Upon termination of this Agreement for any reason, you must immediately cease all use of the Krea Model and any Derivatives, and destroy all copies of the Krea Model and any Derivatives in your possession or control. Termination shall not relieve you of any obligations accrued prior to termination, including indemnification obligations.
+
+9.5 Survival. Sections 1, 4, 5, 6, 7, 8, 9.4, 9.5, and 10 shall survive any termination or expiration of this Agreement.
+
+10. GENERAL
+10.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware, United States of America, without regard to its conflict of laws principles.
+
+10.2 Entire Agreement. This Agreement, together with the Acceptable Use Policy incorporated herein by reference, constitutes the entire agreement between you and Krea with respect to the subject matter hereof and supersedes all prior or contemporaneous communications, representations, or agreements, whether oral or written.
+
+10.3 Severability and Waiver. If any provision of this Agreement is held invalid or unenforceable, the remaining provisions continue in full force and effect. Krea's failure to exercise or enforce any right or provision of this Agreement will not operate as a waiver of such right or provision.

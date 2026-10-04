@@ -1,0 +1,14 @@
+星绘工坊离线版 / NOTICE
+
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) 2026 Hangzhou Tongyi Laboratory Technology Co., Ltd. All Rights Reserved.
+Krea 2 is licensed under the Krea 2 Community License Agreement. For more information, visit https://krea.ai/krea-2-licensing.
+
+Qwen Image 2.1 int8 ConvRot, qwen3vl_8b_w4a8 and Qwen VAE: https://huggingface.co/Comfy-Org/Qwen-Image-2.1
+Krea 2 Turbo Q3_K_M GGUF: https://huggingface.co/byteshape/Krea-2-Turbo-GGUF
+Krea 2 text encoder, VAE and sunsetblur LoRA: https://huggingface.co/Comfy-Org/Krea-2
+Krea 2 style-reference LoRA: https://huggingface.co/ostris/krea2_turbo_style_reference
+ComfyUI GPLv3 source code: https://github.com/Comfy-Org/ComfyUI
+ComfyUI-GGUF Apache-2.0 source code: https://github.com/city96/ComfyUI-GGUF
+
+GGUF is a quantized modification of Krea 2 Turbo by byteshape, not an official Krea product. The app UI and workflow API graphs were developed for this installer. The Krea 2 and Qwen models were not modified by this app.
+Python runtime dependencies keep their own notices in the bundled site-packages metadata.
