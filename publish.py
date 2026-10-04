@@ -3,6 +3,7 @@
 No credentials are written to disk. Interrupted draft uploads can be retried.
 """
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import os
@@ -92,7 +93,7 @@ class Progress:
         self.sent, self.last = 0, time.monotonic()
 
     def read(self, amount=-1):
-        chunk = self.file.read(amount)
+        chunk = self.file.read(max(amount, 1024 * 1024))
         self.sent += len(chunk)
         if time.monotonic() - self.last > 25:
             print(f"{self.name}: {self.sent / self.size:.1%}", flush=True)
@@ -158,7 +159,10 @@ def main():
                 raise
             tagged = release["target_commitish"]
         if tagged != commit:
-            raise RuntimeError("Version already belongs to another commit; increment AppVersion")
+            if not release["draft"]:
+                raise RuntimeError("Version already belongs to another commit; increment AppVersion")
+            release = api.request(f"/repos/{REPO}/releases/{release['id']}", "PATCH",
+                                  {"target_commitish": commit, "body": body})
     print(f"Source: {repo['html_url']} | Release {tag} draft={release['draft']}", flush=True)
     entries = []
     for path in files:
@@ -167,7 +171,8 @@ def main():
     manifest = ROOT / ".git" / "SHA256SUMS.txt"
     manifest.write_text("".join(f"{digest}  {name}\n" for _, name, digest in entries), encoding="utf-8")
     entries.append((manifest, manifest.name, sha256(manifest)))
-    for path, name, digest in entries:
+    def upload_entry(entry):
+        path, name, digest = entry
         for attempt in range(3):
             assets = api.request(f"/repos/{REPO}/releases/{release['id']}/assets?per_page=100")
             existing = next((asset for asset in assets if asset["name"] == name), None)
@@ -193,6 +198,8 @@ def main():
                     raise
                 print(f"Upload interrupted ({type(error).__name__}); retrying", flush=True)
                 time.sleep(3)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        list(pool.map(upload_entry, entries))
     # Only expose the download after every expected asset has a matching server-side SHA256.
     assets = api.request(f"/repos/{REPO}/releases/{release['id']}/assets?per_page=100")
     by_name = {asset["name"]: asset for asset in assets}
