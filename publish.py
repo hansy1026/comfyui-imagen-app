@@ -158,7 +158,7 @@ def main():
             if not release["draft"]:
                 raise RuntimeError("Version already belongs to another commit; increment AppVersion")
             release = api.request(f"/repos/{REPO}/releases/{release['id']}", "PATCH",
-                                  {"target_commitish": commit, "body": body})
+                                  {"tag_name": tag, "target_commitish": commit, "body": body})
     print(f"Source: {repo['html_url']} | Release {tag} draft={release['draft']}", flush=True)
     entries = []
     for path in files:
