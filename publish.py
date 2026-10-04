@@ -152,12 +152,8 @@ def main():
             "body": body, "draft": True})
     else:
         # Published versions are immutable in this workflow; increment version for changed code.
-        try:
-            tagged = api.request(f"/repos/{REPO}/commits/{tag}")["sha"]
-        except urllib.error.HTTPError as error:
-            if error.code != 404 or not release["draft"]:
-                raise
-            tagged = release["target_commitish"]
+        tagged = (release["target_commitish"] if release["draft"] else
+                  api.request(f"/repos/{REPO}/commits/{tag}")["sha"])
         if tagged != commit:
             if not release["draft"]:
                 raise RuntimeError("Version already belongs to another commit; increment AppVersion")
